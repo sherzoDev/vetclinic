@@ -326,7 +326,7 @@ a {
 .intro {
     padding-top: 150px;
     padding-bottom: 350px;
-    background-image: url("../images/body-bg-left.png"),
+    background-image: url("../images/animals.png"),
     url("../images/body-bg-right.png");
     background-repeat: no-repeat;
     background-size: 870px 835px, 320px 430px;
@@ -917,7 +917,7 @@ a {
     display: flex;
     align-items: center;
 }
-.map_link {
+.map__link {
     margin-right: 166px;
 }
 .map_img {
