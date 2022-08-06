@@ -1493,12 +1493,129 @@ a {
 }
 
 .services-list__item {
+    margin-bottom: 34px;
+    padding-left: 53px;
+    padding-right: 22px;
+    padding-top: 58px;
+    padding-bottom: 45px;
+    width: 305px;
+    height: 420px;
     background-image: url("../images/services-items-bg-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: var(--main-white-color);
     border-radius: 5px 5px 0px 0px;
+    transition: all 0.3s;
+}
+
+.services-list__item:hover,
+.services-list__item:active{
+    filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+.services-list__item::before {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.services-list__item:nth-child(1)::before {
+    width: 54px;
+    height: 77.45px;
+    background-image: url("../images/services-list-item-1.svg");
+}
+
+.services-list__item:nth-child(2)::before {
+    width: 61px;
+    height: 76px;
+    background-image: url("../images/services-list-item-2.svg");
+}
+
+.services-list__item:nth-child(3)::before {
+    width: 72px;
+    height: 76px;
+    background-image: url("../images/services-list-item-3.svg");
+}
+
+.services-list__item:nth-child(4)::before {
+    width: 76px;
+    height: 76px;
+    background-image: url("../images/services-list-item-4.svg");
+}
+
+.services-list__item:nth-child(5)::before {
+    width: 78px;
+    height: 78px;
+    background-image: url("../images/services-list-item-5.svg");
+}
+
+.services-list__item:nth-child(6)::before {
+    width: 76px;
+    height: 76px;
+    background-image: url("../images/services-list-item-6.svg");
+}
+
+.services-list__item:nth-child(7)::before {
+    width: 77px;
+    height: 77px;
+    background-image: url("../images/services-list-item-7.svg");
+}
+
+.services-list__item:nth-child(8)::before {
+    width: 40px;
+    height: 77px;
+    background-image: url("../images/services-list-item-8.svg");
+}
+
+.services-list__item:nth-child(9)::before {
+    width: 86px;
+    height: 78px;
+    background-image: url("../images/services-list-item-9.svg");
+}
+
+.services-list__item:nth-child(10)::before {
+    width: 68px;
+    height: 76px;
+    background-image: url("../images/services-list-item-10.svg");
+}
+
+.services-list__item:nth-child(11)::before {
+    width: 78px;
+    height: 78px;
+    background-image: url("../images/services-list-item-11.svg");
+}
+
+.services-list__item:nth-child(12)::before {
+    width: 77px;
+    height: 77px;
+    background-image: url("../images/services-list-item-12.svg");
+}
+
+.services-list__title {
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    color: #333333;
+}
+
+.services-list__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-bottom: 26px;
+}
+
+.services-list__btn {
+    margin-top: 26px;   
+    padding: 15px 48px;
+    background: #78C0DE;
+    color: var(--main-white-color);
+    border-radius: 3px;
 }
 
 /* Services List Finish */
