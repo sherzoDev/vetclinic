@@ -73,6 +73,7 @@ body {
     background-image: url("../images/bg.png");
     background-color: #f9f9f9;
     font-family: "FuturaPT", "Arial", sans-serif;
+    overflow-x: hidden;
 }
 
 .visually-hidden {
@@ -1651,3 +1652,203 @@ a {
 /* Services List Finish */
 
 /* Site Services Page Finish */
+
+/* Site Question Page Start */
+
+/* Site Question Hero start */
+
+.main--site-main {
+    padding-left: 170px;
+}
+
+.question-hero__wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-hero__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: var(--main-text-color);
+}
+
+.question-hero__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.question-hero__right {
+    margin-right: -178px;
+}
+
+/* Question Details Start */
+
+.question-container {
+    width: 1450px;
+    margin: 0 auto;
+    padding-bottom: 250px;
+}
+
+.question-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-details::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -50px;
+    margin-top: 900px;
+    width: 654px;
+    height: 650px;
+    background-image: url("../images/pet-animals.png");
+}
+
+summary {
+    list-style: none;
+}
+
+.question-details__box {
+    padding-left: 63px;
+    padding-top: 31px;
+    padding-bottom: 73px;
+    padding-right: 150px;
+    width: 752px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.question-details__box--opacity {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.question-details__title,
+.question-details__title-there {
+    position: relative;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.question-details__title::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: -100px;
+    top: 0;
+    background-image: url("../images/arrow.svg");
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.question-details__title-there::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: -100px;
+    top: 0;
+    background-image: url("../images/clock.svg");
+    width: 18px;
+    height: 16px;
+    transition: all 0.2s;
+    cursor: not-allowed;
+}
+
+.question-details__details[open] .question-details__title::after {
+    transform: rotate(180deg);
+}
+
+.question-details__time {
+    display: flex;
+    align-items: center;
+}
+
+.question-details__date {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.question-details__date::before {
+    padding-right: 6.8px;
+    content: "";
+    background-repeat: no-repeat;
+    width: 22.87px;
+    height: 19.99px;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/paw-gold.svg");
+}
+
+.question-details__date-blue-icon {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.question-details__date-blue-icon::before {
+    padding-right: 6.8px;
+    content: "";
+    background-repeat: no-repeat;
+    width: 22.87px;
+    height: 19.99px;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/paw-blue.svg");
+}
+
+.question-details__text {
+    width: 577px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.question-details__link {
+    text-align: right;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #78C0DE;
+    padding-left: 28px;
+}
+
+.footer-top__tomargin {
+    margin-bottom: 25   0px;
+}
+
+/*!! cursor: notallowed */
+
+/* Site Question Hero finish */
+
+/* Site Question Page Finish */
